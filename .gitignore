@@ -1,0 +1,32 @@
+# ==============================
+# Secrets and credentials
+# ==============================
+.env
+.env.*
+*.token
+*.jwt
+
+# ==============================
+# Raw authenticated evidence
+# May contain JWTs, passwords,
+# session cookies, etc.
+# ==============================
+enumeration/*auth*.txt
+enumeration/*auth*.json
+
+# ==============================
+# Burp Suite project files
+# ==============================
+*.burp
+*.burpsuite
+
+# ==============================
+# Temporary / editor files
+# ==============================
+.DS_Store
+*.swp
+*.swo
+# Large application-generated frontend assets
+enumeration/main.js
+enumeration/polyfills.js
+enumeration/scripts.js

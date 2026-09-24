@@ -1,0 +1,15 @@
+/api/Addresss
+/api/BasketItems
+/api/Cards
+/api/Challenges
+/api/Challenges/?key=nftMintChallenge
+/api/Complaints
+/api/Deliverys
+/api/Feedbacks
+/api/Hints
+/api/Products
+/api/Quantitys
+/api/Recycles
+/api/SecurityAnswers
+/api/SecurityQuestions
+/api/Users

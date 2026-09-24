@@ -1,0 +1,40 @@
+WEB APPLICATION VAPT - SCOPE & RULES
+
+Project:
+OWASP Juice Shop Web Application Security Assessment
+
+Target:
+http://127.0.0.1:3000
+
+Target Environment:
+Local Kali Linux / Docker Lab
+
+Authorization:
+Authorized security testing of a locally hosted intentionally vulnerable application.
+
+Testing Type:
+Web Application Vulnerability Assessment and Penetration Testing (VAPT)
+
+Objectives:
+- Identify security vulnerabilities
+- Validate vulnerabilities in the authorized lab
+- Collect technical evidence
+- Assess risk and impact
+- Provide remediation recommendations
+- Produce a professional VAPT report
+
+Out of Scope:
+- Any external/public systems
+- Any system other than the local Juice Shop instance
+- Denial-of-Service testing
+- Destructive testing
+
+Testing Approach:
+1. Reconnaissance
+2. Enumeration
+3. Vulnerability Assessment
+4. Controlled Exploitation
+5. Evidence Collection
+6. Risk Assessment
+7. Remediation
+8. Final Reporting
