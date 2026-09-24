@@ -1,32 +1,56 @@
-# ==============================
+# ==========================================
 # Secrets and credentials
-# ==============================
+# ==========================================
 .env
 .env.*
 *.token
 *.jwt
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
 
-# ==============================
+# ==========================================
 # Raw authenticated evidence
-# May contain JWTs, passwords,
-# session cookies, etc.
-# ==============================
+# ==========================================
 enumeration/*auth*.txt
 enumeration/*auth*.json
 
-# ==============================
-# Burp Suite project files
-# ==============================
+# ==========================================
+# Raw testing evidence
+# May contain JWTs, cookies, passwords,
+# request/response data, or other secrets
+# ==========================================
+evidence/
+
+# ==========================================
+# Burp Suite project/session files
+# ==========================================
 *.burp
 *.burpsuite
+*.burpstate
 
-# ==============================
-# Temporary / editor files
-# ==============================
-.DS_Store
+# ==========================================
+# Temporary files
+# ==========================================
 *.swp
 *.swo
-# Large application-generated frontend assets
+*.tmp
+*.temp
+.DS_Store
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# Local environment/configuration
+# ==========================================
+.vscode/
+.idea/
+# Generated frontend JavaScript
 enumeration/main.js
 enumeration/polyfills.js
 enumeration/scripts.js
